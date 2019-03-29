@@ -3,7 +3,6 @@ option java_generate_equals_and_hash = true;
 option java_package = "com.xtrader.protocol.proto.commons.model";
 option java_outer_classname = "ContainerCommonModelMessages";
 
-
 // --- INTENSIVE COMMANDS 1 - 49
 // --- COMMON API 50 - 69
 enum ProtoPayloadType {
@@ -28,4 +27,3 @@ enum ProtoErrorCode {
     CONCURRENT_MODIFICATION = 10;
     BLOCKED_PAYLOAD_TYPE = 11;
 }
-

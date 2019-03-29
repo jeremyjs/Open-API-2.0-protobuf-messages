@@ -1,9 +1,6 @@
 option java_multiple_files = true;
-
 option java_generate_equals_and_hash = true;
-
 option java_package = "com.xtrader.protocol.openapi.v2.model";
-
 option java_outer_classname = "ContainerOpenApiV2ModelMessages";
 
 enum ProtoOAPayloadType {
