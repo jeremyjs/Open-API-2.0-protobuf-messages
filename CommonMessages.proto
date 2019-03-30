@@ -5,7 +5,6 @@ option java_outer_classname = "ContainerCommonMessages";
 
 import "CommonModelMessages.proto";
 
-
 message ProtoMessage {
     required uint32 payloadType = 1; // contains id of ProtoPayloadType or other custom PayloadTypes (e.g. ProtoCHPayloadType)
     optional bytes payload = 2;      // serialized protobuf message that corresponds to payloadType

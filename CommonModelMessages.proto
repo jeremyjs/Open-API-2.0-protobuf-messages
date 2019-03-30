@@ -3,7 +3,6 @@ option java_generate_equals_and_hash = true;
 option java_package = "com.xtrader.protocol.proto.commons.model";
 option java_outer_classname = "ContainerCommonModelMessages";
 
-
 // --- COMMON API 50 - 69 --- [1 - 49 reserved for traffic intensive messages]
 enum ProtoPayloadType {
     ERROR_RES = 50;
